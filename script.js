@@ -12,7 +12,8 @@ function compute()
     }
     else
     {
-        alert("Amount entered is Incorrect. \nKindly enter a Positive value...!!")
+        alert("Amount entered is Incorrect. \nKindly enter a Positive value...!!");
+        p.focus();
     }
     
 }
