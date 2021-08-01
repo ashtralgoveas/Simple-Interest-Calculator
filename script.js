@@ -7,7 +7,7 @@ function compute()
     {
         let i = p.value * y.value * r.value / 100;
         UpcomingYears = new Date().getFullYear() + parseInt(y.value);
-        result = document.getElementById("result")
+        result = document.getElementById("result");
         result.innerHTML = "<p>If you deposit <mark>"+ p.value +"</mark>,<br>at an interest rate of <mark>" + r.value + "%</mark>.<br>You will receive an amount of <mark>"+i+"</mark>,<br>in the year <mark>"+UpcomingYears+"</mark><br><br></p>";
     }
     else
